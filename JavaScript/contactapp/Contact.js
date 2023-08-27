@@ -54,7 +54,7 @@ class Contact{
     #findContactInfo(contactInfoID){
         try {
             if(typeof contactInfoID != "number"){
-                throw new Validation("Invalid Contact Info ID")
+                throw new Error("Invalid Contact Info ID")
             }
 
             for (let index = 0; index < this.contactInfos.length; index++) {
@@ -88,7 +88,7 @@ class Contact{
     deleteContactInfo(contactInfoID){
         try {
             if(typeof contactInfoID != "number"){   
-                throw new Validation("Invalid Contact ID")    
+                throw new Error("Invalid Contact ID")    
             }
 
             let [foundContactInfo, indexOfContactInfo] = this.#findContactInfo(contactInfoID)

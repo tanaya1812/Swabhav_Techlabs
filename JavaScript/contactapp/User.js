@@ -266,7 +266,7 @@ class User {
             }
 
             if (contactID < 0 || typeof contactID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact ID")
             }
 
             let [contactToBeDeleted, indexToBeDeleted] = this.#findContact(contactID)
@@ -291,7 +291,7 @@ class User {
             }
 
             if (contactID < 0 || typeof contactID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact ID")
             }
 
             let [foundContact, indexOfContact] = this.#findContact(contactID)
@@ -310,7 +310,7 @@ class User {
             }
 
             if (contactID < 0 || typeof contactID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact ID")
             }
 
             let [foundContact, indexOfContact] = this.#findContact(contactID)
@@ -330,10 +330,10 @@ class User {
             }
 
             if (typeof contactID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact ID")
             }
             if (typeof contactInfoID != 'number') {
-                throw new Validation("Invalid Contact Info ID")
+                throw new Error("Invalid Contact Info ID")
             }
             let [foundContact, indexOfContact] = this.#findContact(contactID)
             foundContact.getContactInfoByID(contactInfoID)
@@ -351,11 +351,11 @@ class User {
             }
 
             if (contactID < 0 || typeof contactID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact ID")
             }
 
             if (contactInfoID < 0 || typeof contactInfoID != 'number') {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid ContactInfo ID")
             }
 
             if (typeof parameter != 'string') {
@@ -379,7 +379,7 @@ class User {
             }
 
             if (typeof contactInfoID != "number") {
-                throw new Validation("Invalid Contact ID")
+                throw new Error("Invalid Contact Info ID")
             }
             let [foundContact, indexOfContact] = this.#findContact(contactID)
             foundContact.deleteContactInfo(contactInfoID)
