@@ -1,0 +1,31 @@
+var User = require('./User.js')
+
+let a1 = User.newAdmin("ABC",22,"F")
+// console.log(a1)
+
+console.log(a1.newUser("User1", 21, "M"))
+// console.log(a1.getAllUsers())
+console.log(a1.updateUser(1,'age',22))
+// console.log(a1.getAllUsers())
+console.log(a1.newUser("User2", 20, "F"))
+console.log(a1.getAllUsers())
+console.log(a1.deleteUser(2))
+console.log(a1.getAllUsers())
+
+// let user1 = a1.newUser("User1", 21, "M")
+// console.log(a1.getAllUsers())
+// user1.createContact("Tanaya")
+// console.log(user1.getAllContacts())
+// user1.updateContact(0,'name', 'Tanaya Raikwar')
+// console.log(user1.getAllContacts())
+// user1.deleteContact(0)
+// console.log(user1.getAllContacts())
+
+// user1.createContactInfo("mobile","9309829478",0)
+// user1.createContactInfo("work","9309829478",0)
+// console.log(user1.getAllContactInfo(0))
+// user1.updateContactInfo(0, 1, 'typeOfContact', 'work2')
+// console.log(user1.getAllContactInfo(0))
+// user1.deleteContactInfo(0, 1)
+// console.log(user1.getAllContactInfo(0))
+
