@@ -224,7 +224,7 @@ class User {
                     return [this.contacts[index], index]
             }
             // return [null, -1]
-            throw new Error("Contact ID not found")
+            throw new Error("Contact not found")
 
         } catch (error) {
             console.log(error.message)
@@ -238,12 +238,12 @@ class User {
                 throw new Error("Admin cannot update contact")
             }
 
+            if (contactID < 0 || typeof contactID != "number")
+                throw new Error("Invalid Contact ID")
+
             if (typeof parameter != 'string') {
                 throw new Error("Invalid parameter")
             }
-
-            if (contactID < 0 || typeof contactID != "number")
-                throw new Error("Invalid Contact ID")
 
             let [foundContact, indexOfContact] = this.#findContact(contactID)
 
@@ -340,7 +340,7 @@ class User {
 
             return 'Contacts Info Read by ID'
         } catch (error) {
-            return (error.message)
+            console.log(error.message)
         }
     }
 
@@ -376,6 +376,10 @@ class User {
         try {
             if (this.isAdmin) {
                 throw new Error("Admin cannot delete contact info")
+            }
+
+            if (contactID < 0 || typeof contactID != 'number') {
+                throw new Error("Invalid Contact ID")
             }
 
             if (typeof contactInfoID != "number") {
