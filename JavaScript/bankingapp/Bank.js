@@ -8,10 +8,8 @@ class Bank {
 
     constructor(fullName, abbreviation) {
         this.id = Bank.id++,
-            this.fullName = fullName,
-            this.abbreviation = abbreviation.match(/\b\w/g).join('')
-        // this.banks = []
-        //acc 
+        this.fullName = fullName,
+        this.abbreviation = abbreviation.match(/\b\w/g).join('')
         this.accounts = []
     }
 
@@ -48,6 +46,10 @@ class Bank {
         }
 
     }
+
+    // getAllBanks(){
+    //     return this.banks
+    // }
 
     updateBank(parameter, newValue) {
         switch (parameter) {
@@ -122,7 +124,7 @@ class Bank {
         }
     }
 
-    
+
 
 
 }

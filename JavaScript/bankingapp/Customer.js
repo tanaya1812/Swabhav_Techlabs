@@ -8,10 +8,10 @@ class Customer {
 
     constructor(firstName, lastName, totalBalance, isAdmin) {
         this.id = Customer.id++,
-            this.firstName = firstName,
-            this.lastName = lastName,
-            this.totalBalance = totalBalance,
-            this.isAdmin = isAdmin
+        this.firstName = firstName,
+        this.lastName = lastName,
+        this.totalBalance = totalBalance,
+        this.isAdmin = isAdmin
         this.accounts = []
     }
 
@@ -52,7 +52,7 @@ class Customer {
             return newCustomer
 
         } catch (error) {
-            console.log(error)
+            console.log(error.message)
         }
     }
 
@@ -423,7 +423,7 @@ class Customer {
                 throw new Error("Admin cannot read passbook")
             }
             if(typeof accountID != 'number'){
-                throw new Validation("Invalid Account ID")
+                throw new Error("Invalid Account ID")
             }
             let [foundAccount,indexOfAccount] = this.findAccountID(accountID)
             return foundAccount.getPassbook()
