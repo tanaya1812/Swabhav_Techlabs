@@ -1,4 +1,4 @@
-const Customer = require("./Customer")
+// const Customer = require("./Customer")
 
 class Transaction{
     

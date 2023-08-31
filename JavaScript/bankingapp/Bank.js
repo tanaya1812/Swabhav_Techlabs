@@ -1,5 +1,5 @@
-const Account = require("./Account")
-const Customer = require("./Customer")
+// const Account = require("./Account")
+// const Customer = require("./Customer")
 
 class Bank {
 
@@ -47,7 +47,7 @@ class Bank {
 
     }
 
-    // getAllBanks(){
+    // static getAllBanks(){
     //     return this.banks
     // }
 

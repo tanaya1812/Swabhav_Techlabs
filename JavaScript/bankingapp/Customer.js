@@ -185,7 +185,7 @@ class Customer {
             }
 
             Bank.newBank(fullName, abbreviation)
-            // Bank.banks.push(newBank)
+            
             return 'Bank Created'
 
         } catch (error) {
@@ -337,6 +337,9 @@ class Customer {
             }
 
             let [foundAccount, indexOfAccount] = this.findAccountID(accountID)
+            if (foundAccount == null)
+                throw new Error("Account not found")
+
             this.accounts.splice(indexOfAccount, 1)
 
             Bank.deleteAccountFromBank(accountID)
@@ -360,6 +363,9 @@ class Customer {
                 throw new Error("invalid Account ID")
             }
             let [foundAccount,indexOfAccount] = this.findAccountID(accountID)
+            if (foundAccount == null)
+                throw new Error("Account not found")
+
             this.accounts[indexOfAccount].deposit(amount)
             
             return 'Amount Deposited'
@@ -371,7 +377,7 @@ class Customer {
     withdraw(amount, accountID){
         try {
             if(this.isAdmin){
-                throw new Error("Admin do not have Access")
+                throw new Error("Admin cannot withdraw amount")
             }
             if(amount<0 || typeof amount != 'number'){
                 throw new Error("Invalid Amount")
@@ -381,6 +387,9 @@ class Customer {
                 throw new Error("invalid Account ID")
             }
             let [foundAccount,indexOfAccount] = this.findAccountID(accountID)
+            if (foundAccount == null)
+                throw new Error("Account not found")
+
             this.accounts[indexOfAccount].withdraw(amount)
            
             return 'Amount Withdrawed'
@@ -392,7 +401,7 @@ class Customer {
     transferMoney(amount, senderAccountId, customerID, receiverAccountId){
         try {
             if(this.isAdmin){
-                throw new Error("Admin cannot transfer money")
+                throw new Error("Admin cannot transfer amount")
             }
             if(amount < 0 || typeof amount != 'number'){
                 throw new Error("Invalid Amount")
@@ -407,13 +416,19 @@ class Customer {
                 throw new Error("Invalid Receiver Account ID")
             }
             let [foundReceiverCustomer,indexOfReceiverCustomer] = Customer.#findCustomer(customerID)
-            
-            this.withdraw(amount, senderAccountId)
-            Customer.allCustomers[indexOfReceiverCustomer].deposit(amount, receiverAccountId)
+            if(foundReceiverCustomer == null ){
+                throw new Error("Receiver Customer not found")
+            }
+            let withdraw = this.withdraw(amount, senderAccountId)
+            let deposit = Customer.allCustomers[indexOfReceiverCustomer].deposit(amount, receiverAccountId)
 
+            if(!deposit || !withdraw){
+                throw new Error("Transfer failed")               
+            }
             return 'Amount transferred'
         } catch (error) {
             console.log(error.message)
+            return 'Amount transfer failed'
         }
     }
 
@@ -426,6 +441,9 @@ class Customer {
                 throw new Error("Invalid Account ID")
             }
             let [foundAccount,indexOfAccount] = this.findAccountID(accountID)
+            if (foundAccount == null)
+                throw new Error("Account not found")
+            
             return foundAccount.getPassbook()
             
         } catch (error) {

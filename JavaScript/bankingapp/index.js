@@ -36,17 +36,20 @@ console.log(user1.createAccount(1,"Canara Bank", 4000))
 console.log(a1.getAllCustomers())
 console.log(a1.getAllBanks())
 console.log(user1.getAllAccountsByID(1))
-// console.log(user1.getAllAccounts())
+console.log(user1.getAllAccounts())
 
-// console.log(user1.deleteAccount(1))
-// console.log(user1.getAllAccountsByID(1))
+console.log(user1.deleteAccount(0))
+console.log(user1.getAllAccountsByID(1))
+
+//transaction
 
 console.log(user1.deposit(20,1))
 console.log(user1.withdraw(200,2))
 
 console.log(user1.getAllAccountsByID(1))
 
-console.log(user1.transferMoney(20, 1, 1, 2));
+// console.log(user1.transferMoney(20, 1, 1, 2))
+console.log(user1.transferMoney(20, 3, 1 , 2))
 console.log(user1.getAllAccountsByID(1))
 
 console.log(user1.getPassbook(1));
