@@ -35,7 +35,9 @@ class Account {
             this.balance += amount
 
             let newTransaction = new Transaction(new Date(), oldBalance, this.balance, "Deposit", amount)
-
+            if(!newTransaction)
+                throw new Error("Transaction not possible")
+            
             this.passbook.push(newTransaction)
             return true
         } catch (error) {

@@ -428,7 +428,6 @@ class Customer {
             return 'Amount transferred'
         } catch (error) {
             console.log(error.message)
-            return 'Amount transfer failed'
         }
     }
 
