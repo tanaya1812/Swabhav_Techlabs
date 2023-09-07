@@ -1,0 +1,6 @@
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\bin\Debug\MovieAppClassLibrary.dll
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\bin\Debug\MovieAppClassLibrary.pdb
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\obj\Debug\MovieAppClassLibrary.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\obj\Debug\MovieAppClassLibrary.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\obj\Debug\MovieAppClassLibrary.dll
+D:\Techlabs\Assignments\A-Movie App-ClassLibrary\MovieAppClassLibrary\obj\Debug\MovieAppClassLibrary.pdb
