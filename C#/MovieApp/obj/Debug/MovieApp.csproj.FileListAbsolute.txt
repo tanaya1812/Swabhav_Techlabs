@@ -1,0 +1,53 @@
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\bin\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\bin\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\obj\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-List\MovieApp\obj\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\bin\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\bin\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\obj\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-Serialization\MovieApp\obj\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\bin\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\bin\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\obj\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager\MovieApp\obj\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\bin\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\bin\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\obj\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-SerializationAndManager - Copy\MovieApp\obj\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\bin\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\bin\Debug\MovieApp.pdb
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\bin\Debug\MovieAppClassLibrary.dll
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\bin\Debug\MovieAppClassLibrary.pdb
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.csproj.CopyComplete
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.exe
+D:\Techlabs\Assignments\A-Movie App-ClassLibraryApp\MovieApp\obj\Debug\MovieApp.pdb
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\bin\Debug\MovieApp.exe.config
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\bin\Debug\MovieApp.exe
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\bin\Debug\MovieApp.pdb
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\bin\Debug\MovieAppClassLibrary.pdb
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.csproj.CopyComplete
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.exe
+D:\Tanaya\Swabhav_Techlabs\C#\MovieApp\obj\Debug\MovieApp.pdb
